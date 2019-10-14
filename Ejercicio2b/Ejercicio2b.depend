@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1571064248 source:c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio1\main.cpp
+	<iostream>
+	<cstdlib>
+
+1571067094 source:c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio2\main.cpp
+	<iostream>
+	<cstdlib>
+	<StackNode.h>
+
+1571066387 c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio2\include\funciones.h
+	<iostream>
+	<cstdlib>
+
+1571065694 source:c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio2\src\funciones.cpp
+	"Funciones.h"
+
+1571067111 c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio2\include\stacknode.h
+	<iostream>
+	<cstdlib>
+
+1571066177 source:c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio2\src\stacknode.cpp
+	"StackNode.h"
+
+1571067094 source:c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio2b\main.cpp
+	<iostream>
+	<cstdlib>
+	<StackNode.h>
+
+1571067111 c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio2b\include\stacknode.h
+	<iostream>
+	<cstdlib>
+
+1571066177 source:c:\users\alvaro\onedrive\2º\estructura de datos\inglés\laboratory\ejercicios\ejercicio1\ejercicio2b\src\stacknode.cpp
+	"StackNode.h"
+
