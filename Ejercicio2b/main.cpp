@@ -58,7 +58,7 @@ int top(StackNode* root)
 
 StackNode* completeStack (StackNode* S, int enteros){
     cout<<"Completamos la pila con "<< enteros <<" Enteros"<<endl;
-    for(int i=0; i<enteros; i++){
+    for(int i=1; i<=enteros; i++){
         push(&S, i);
     }
     return S;
