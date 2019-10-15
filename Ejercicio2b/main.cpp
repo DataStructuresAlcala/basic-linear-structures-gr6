@@ -42,7 +42,7 @@ int pop(StackNode** root)
     StackNode* temp = *root;
     *root = (*root)->next;
     int popped = temp->element;
-    free(temp); //'delete' also would be right
+    delete(temp); 
 
     return popped;
 }
