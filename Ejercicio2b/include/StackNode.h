@@ -7,15 +7,15 @@ using namespace std;
 
 class StackNode
 {
-    public:
-        StackNode();
-        virtual ~StackNode();
+    private:
+        //StackNode();
+       // virtual ~StackNode();
         int element;
         StackNode* next;
 
-    protected:
-
-    private:
+    public:
+        StackNode();
+        virtual ~StackNode();
 };
 
 #endif
