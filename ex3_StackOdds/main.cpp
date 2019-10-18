@@ -81,7 +81,7 @@ void printStack(StackNode* S)
 			 push(&temp,pop(&S));
 		}  
 		else{
-			cout<<pop(&S)<<" ";
+			pop(&temp)<<" ";
 		}  
 		
     }
