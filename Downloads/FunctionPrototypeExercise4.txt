@@ -1,0 +1,35 @@
+/*Exercise 4 (Function that prints only numbers 
+that could be divided by a number given by the user)
+*/
+
+
+// C++ program to print all the numbers 
+// divisible by the numbers provided by the user 
+#include <iostream> 
+using namespace std; 
+  
+// Result function with N 
+void result(int N) 
+{      
+    // iterate from 0 to N 
+    for (int num = 0; num < N; num++) 
+    {      
+        // Short-circuit operator is used 
+		// the number has to be bigger than 0, because we cant divide by a negative number
+		// and the REMAINDER has to be 0, because we want an exact number
+		// if not, we could put easily only that num has to be bigger than 0 and smaller than N
+        if (num > 0 && num % N == 0) 
+            cout << num << " "; 
+    } 
+} 
+  
+// Driver code 
+int main() 
+{      
+    // input goes here, N=30, because that's the max number we are getting from the queue 
+    int N = 30; 
+      
+    // Calling function 
+    result(N); 
+    return 0; 
+} 
