@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-queue",
+      "appliesTo": "ex1_Queue/queue.cpp",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "tarea-main1.1",
+      "appliesTo": "Exercise1.1/main1.1.cpp",
+      "type": "launch"
+    }
+  ]
+}
